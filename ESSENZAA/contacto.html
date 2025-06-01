@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>ESSENZA</title>
+  <style>
+    body {
+      background-color: grey;
+      color: black;
+      font-family: Leelawadee, sans-serif;
+      text-align: center;
+    }
+    .navbar img {
+      width: 15%;
+      margin: 5px;
+    }
+
+    .follow-text {
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+
+    .carousel-container {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 20px;
+    }
+
+    .carousel-track {
+      display: flex;
+      animation: scroll 20s linear infinite;
+    }
+
+    .carousel-track a {
+      flex: 0 0 auto;
+      margin: 0 20px;
+    }
+
+    .carousel-track img {
+      width: 150px; /* MÁS GRANDE */
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+    .footer {
+      color: white;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="inicio fm.html"><img src="Inicio.png" alt="Inicio"></a>
+    <a href="productos.html"><img src="productos.png" alt="Productos"></a>
+    <a href="nosotros.html"><img src="nosotros.png" alt="Nosotros"></a>
+    <a href="contacto.html"><img src="contacto.png" alt="Contacto"></a>
+    <a href="legal.html"><img src="legal.png" alt="Legal"></a>
+  </div>
+
+  <p class="follow-text">SÍGUENOS EN:</p>
+
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <a href="https://facebook.com"><img src="fb.png" alt="Facebook"></a>
+      <a href="https://tiktok.com"><img src="tik tok.png" alt="TikTok"></a>
+      <a href="https://instagram.com"><img src="insta.png" alt="Instagram"></a>
+      <a href="https://whatsapp.com"><img src="whats.png" alt="WhatsApp"></a>
+      <!-- Repetimos para mantener el bucle fluido -->
+      <a href="https://facebook.com"><img src="fb.png" alt="Facebook"></a>
+      <a href="https://tiktok.com"><img src="tik tok.png" alt="TikTok"></a>
+      <a href="https://instagram.com"><img src="insta.png" alt="Instagram"></a>
+      <a href="https://whatsapp.com"><img src="whats.png" alt="WhatsApp"></a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>© 2025 ESSENZA Perfumes. Todos los derechos reservados.</p>
+  </div>
+
+</body>
+</html>
+
+

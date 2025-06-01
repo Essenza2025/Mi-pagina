@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>ESSENZA</title>
+  <style>
+    body {
+      background-color: grey;
+      color: white;
+      font-family: Leelawadee;
+      margin: 0;
+    }
+
+    .header {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .menu img {
+      width: 15%;
+      margin: 5px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 70vh;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .content p {
+      width: 70%;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="ESSENZA.PNG" width="50%">
+    <div class="menu">
+      <a href="inicio.html"><img src="inicio.png"></a>
+      <a href="productos.html"><img src="productos.png"></a>
+      <a href="nosotros.html"><img src="nosotros.png"></a>
+      <a href="contacto.html"><img src="contacto.png"></a>
+      <a href="legal.html"><img src="legal.png"></a>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Historia</h2>
+    <p>ESSENZA nació como un proyecto escolar en la preparatoria, inspirado por la idea de que un perfume puede decir más que mil palabras...</p>
+
+    <h2>Visión</h2>
+    <p>Ser una tienda reconocida por la confianza, autenticidad y variedad de perfumes de marca que ofrecemos...</p>
+
+    <h2>Misión</h2>
+    <p>En ESSENZA, nuestra misión es acercar a nuestros clientes a las mejores marcas de perfumes del mercado...</p>
+  </div>
+
+  <div class="footer">
+    <b>© 2025 ESSENZA Perfumes. Todos los derechos reservados.</b>
+  </div>
+</body>
+</html>
